@@ -32,5 +32,12 @@ public class Dungeon {
         this.name = name;
     }
 
-    // Other methods
+    @Override
+    public String toString() {
+        return "Dungeon{" +
+                "name='" + name + '\'' +
+                ", rooms=" + rooms +
+                ", npcs=" + npcs +
+                '}';
+    }
 }

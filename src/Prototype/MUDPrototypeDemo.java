@@ -5,7 +5,7 @@ import java.util.*;
 
 public class MUDPrototypeDemo {
     public static void main(String[] args) {
-        
+
         NPC prototypeNPC = new NPC("Dikovin", "The grand master of the dungeon.");
         NPC clonedNPC = (NPC) prototypeNPC.cloneObject();
         System.out.println("Prototype NPC: " + prototypeNPC);
